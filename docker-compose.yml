@@ -3,8 +3,9 @@ services:
    nginx:
        container_name: nginx
        image: nginx:1.17.8-alpine
+       restart: always
        ports:
-           - 80:80
+           - ${NGINX_PORT}:80
        volumes:
            - ./docker/nginx/site.conf:/etc/nginx/conf.d/site.conf
            - .:/php_app
@@ -13,5 +14,6 @@ services:
    php_app:
        build: docker/php_app
        container_name: php_app
+       restart: always
        volumes:
            - .:/php_app
