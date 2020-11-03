@@ -3,3 +3,4 @@
 /writable/
 
 .DS_Store
+.env
