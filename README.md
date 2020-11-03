@@ -1,5 +1,7 @@
 # Docker and Codeigniter 4
 
+Environment for CodeIgniter 4 with Docker
+
 Nginx 1.17.8 + PHP 7.4-fpm + CodeIgniter 4.0.4 -> http://localhost:8080
 
 ## Installing
