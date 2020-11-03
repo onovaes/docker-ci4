@@ -7,10 +7,11 @@ services:
        ports:
            - ${NGINX_PORT}:80
        volumes:
-           - ./docker/nginx/site.conf:/etc/nginx/conf.d/site.conf
+           - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
            - .:/php_app
        links:
            - php_app
+
    php_app:
        build: docker/php_app
        container_name: php_app
