@@ -1,0 +1,17 @@
+version: "3.2"
+services:
+   nginx:
+       container_name: nginx
+       image: nginx:1.17.8-alpine
+       ports:
+           - 80:80
+       volumes:
+           - ./docker/nginx/site.conf:/etc/nginx/conf.d/site.conf
+           - .:/php_app
+       links:
+           - php_app
+   php_app:
+       build: docker/php_app
+       container_name: php_app
+       volumes:
+           - .:/php_app
