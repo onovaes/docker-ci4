@@ -4,9 +4,9 @@ Nginx 1.17.8 + PHP 7.4-fpm + CodeIgniter 4.0.4 -> http://localhost:8080
 
 ## Installing
 
-    $git clone git@github.com:onovaes/docker-ci4.git
+    $git clone git@github.com:onovaes/docker-ci4.git my_project
 
-    $cd docker-ci4 
+    $cd my_project 
 
     $cp docker/env-example .env
 
