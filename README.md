@@ -1,7 +1,7 @@
 # Docker and Codeigniter 4
 
-Nginx localhost
-Nginx + PHP app.localhost
+Only Nginx  -> http://localhost
+Nginx + PHP -> http://app.localhost
 
 ## Installing
 
