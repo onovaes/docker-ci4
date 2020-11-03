@@ -2,7 +2,7 @@
 
 Only Nginx  -> http://localhost
 
-Nginx + PHP -> http://app.localhost
+Nginx + PHP + CodeIgniter 4 -> http://app.localhost
 
 ## Installing
 
