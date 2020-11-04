@@ -4,5 +4,7 @@ vendor/
 writable/
 **/writable/
 
+/build/
+
 .DS_Store
 .env
