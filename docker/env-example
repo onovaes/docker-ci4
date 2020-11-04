@@ -3,3 +3,4 @@ NGINX_PORT=8080
 CI_ENVIRONMENT = development
 
 app.baseURL = 'http://localhost:8080/'
+app.indexPage = ''
