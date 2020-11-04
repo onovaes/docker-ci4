@@ -1,6 +1,8 @@
-/vendor/
+vendor/
+**/vendor/
 
-/writable/
+writable/
+**/writable/
 
 .DS_Store
 .env
