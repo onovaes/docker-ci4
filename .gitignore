@@ -1,5 +1,7 @@
+vendor/
 **/vendor/
 
+writable/
 **/writable/
 
 .DS_Store
