@@ -6,6 +6,8 @@ vendor/
 .DS_Store
 .env
 
+.phpunit.result.cache
+
 # Ignore writable and subfolders content, except the index.html.
 /writable/cache/*
 !/writable/cache/index.html

@@ -14,7 +14,7 @@ Nginx 1.17.8 + PHP 7.4-fpm + CodeIgniter 4.0.4 -> http://localhost:8080
 
     $docker-compose up -d
 
-    $docker exec -ti php_app composer update
+    $docker exec -ti php_app composer install
 
 
 ## Running Tests
