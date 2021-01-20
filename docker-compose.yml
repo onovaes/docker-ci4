@@ -1,7 +1,7 @@
 version: "3.2"
 services:
    nginx:
-       container_name: nginx
+       container_name: ci4_nginx
        image: nginx:1.17.8-alpine
        restart: always
        ports:
@@ -14,7 +14,7 @@ services:
 
    php_app:
        build: docker/php_app
-       container_name: php_app
+       container_name: ci4_php_app
        restart: always
        volumes:
            - .:/php_app
