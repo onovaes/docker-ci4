@@ -29,4 +29,4 @@ Nginx 1.17.8 + PHP 7.4-fpm + CodeIgniter 4.0.4 -> http://localhost:8080
 
 ## Running Tests
 
-    $docker exec -ti php_app composer test
+    $docker exec -ti ci4_php_app composer test
